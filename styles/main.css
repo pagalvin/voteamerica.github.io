@@ -557,8 +557,7 @@ label {
     margin: 5px 10px 0 10px;
 }
 
-.has-error label,
-.has-error .help-block {
+.has-error {
     color: #a94442;
 }
 
@@ -986,6 +985,11 @@ button.self-service-list-button {
         width: 50%;
         padding-right: 2em;
         float: left;
+    }
+
+    .polling-place {
+      max-width: 298px;
+      float: right;
     }
 
     .time-range-slider {
